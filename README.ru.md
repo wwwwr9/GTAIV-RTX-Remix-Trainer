@@ -1,6 +1,7 @@
 # Remix Trainer для GTA IV
 
-Лёгкий трейнер для **GTA IV: The Complete Edition**, работающий вместе с **NVIDIA RTX Remix**.
+Лёгкий трейнер для **GTA IV: The Complete Edition**, работающий вместе с **RTX Remix**,
+в том числе с [GTA IV RTX Remix Compatibility Mod](https://github.com/xoxor4d/gta4-rtx).
 
 Обычные трейнеры для GTA IV опираются на ScriptHook, загрузчики скриптов .NET или перехват Direct3D, чтобы
 работать и рисовать меню, и под RTX Remix они перестают работать. Remix Trainer обходится без всего этого: это
@@ -24,7 +25,8 @@
 - GTA IV: The Complete Edition (32-битный `GTAIV.exe`).
 - [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader).
   Имя `d3d9.dll` занято RTX Remix, поэтому загрузчик ставится под другим именем, например `dinput8.dll`.
-  Если загрузчик ASI уже установлен вместе с другим модом, больше ничего не нужно.
+  Если загрузчик ASI уже установлен вместе с другим модом, больше ничего не нужно;
+  [GTA IV RTX Remix Compatibility Mod](https://github.com/xoxor4d/gta4-rtx) уже содержит его.
 - Игра в **оконном** или **оконном без рамки** режиме. Меню находится в собственном окне поверх остальных, и в
   исключительном полноэкранном режиме оно может быть скрыто.
 
@@ -194,5 +196,5 @@ msbuild remix_trainer.sln /p:Configuration=Release /p:Platform=Win32
 
 [MIT](LICENSE).
 
-Grand Theft Auto IV — товарный знак Take-Two Interactive Software. RTX Remix — товарный знак NVIDIA
-Corporation. Проект не связан с этими компаниями и не одобрен ими.
+Grand Theft Auto IV — товарный знак Take-Two Interactive Software. Проект не связан с Take-Two Interactive,
+Rockstar Games, авторами RTX Remix и GTA IV RTX Remix Compatibility Mod и не одобрен ими.
