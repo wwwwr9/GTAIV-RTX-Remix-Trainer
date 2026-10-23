@@ -1,0 +1,8 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+remix_trainer.log
+remix_trainer.ini
+
